@@ -1,0 +1,17 @@
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Application/bin/Debug/net6.0/OrderService.Application.deps.json
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Application/bin/Debug/net6.0/OrderService.Application.dll
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Application/bin/Debug/net6.0/OrderService.Application.pdb
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Application/bin/Debug/net6.0/OrderService.Domain.dll
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Application/bin/Debug/net6.0/OrderService.Infrastructure.dll
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Application/bin/Debug/net6.0/OrderService.Domain.pdb
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Application/bin/Debug/net6.0/OrderService.Infrastructure.pdb
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Application/obj/Debug/net6.0/OrderService.Application.csproj.AssemblyReference.cache
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Application/obj/Debug/net6.0/OrderService.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Application/obj/Debug/net6.0/OrderService.Application.AssemblyInfoInputs.cache
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Application/obj/Debug/net6.0/OrderService.Application.AssemblyInfo.cs
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Application/obj/Debug/net6.0/OrderService.Application.csproj.CoreCompileInputs.cache
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Application/obj/Debug/net6.0/OrderService.Application.csproj.CopyComplete
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Application/obj/Debug/net6.0/OrderService.Application.dll
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Application/obj/Debug/net6.0/refint/OrderService.Application.dll
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Application/obj/Debug/net6.0/OrderService.Application.pdb
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Application/obj/Debug/net6.0/ref/OrderService.Application.dll

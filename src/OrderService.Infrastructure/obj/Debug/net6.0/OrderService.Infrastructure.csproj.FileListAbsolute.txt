@@ -1,0 +1,12 @@
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Infrastructure/bin/Debug/net6.0/OrderService.Infrastructure.deps.json
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Infrastructure/bin/Debug/net6.0/OrderService.Infrastructure.dll
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Infrastructure/bin/Debug/net6.0/OrderService.Infrastructure.pdb
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Infrastructure/obj/Debug/net6.0/OrderService.Infrastructure.csproj.AssemblyReference.cache
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Infrastructure/obj/Debug/net6.0/OrderService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Infrastructure/obj/Debug/net6.0/OrderService.Infrastructure.AssemblyInfoInputs.cache
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Infrastructure/obj/Debug/net6.0/OrderService.Infrastructure.AssemblyInfo.cs
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Infrastructure/obj/Debug/net6.0/OrderService.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Infrastructure/obj/Debug/net6.0/OrderService.Infrastructure.dll
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Infrastructure/obj/Debug/net6.0/refint/OrderService.Infrastructure.dll
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Infrastructure/obj/Debug/net6.0/OrderService.Infrastructure.pdb
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Infrastructure/obj/Debug/net6.0/ref/OrderService.Infrastructure.dll

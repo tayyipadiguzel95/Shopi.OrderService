@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ef38S9kyvjfdCuHoBMFPBIwMkf6F9AdgewtbITplVIVyTx1qlVQQybd5lIGvawI8SfiXP9G/2QdhUk7LacRjIQ==",
+  "success": true,
+  "projectFilePath": "/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Infrastructure/OrderService.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "/Users/tayyipadiguzel/.nuget/packages/system.linq.dynamic.core/1.2.18/system.linq.dynamic.core.1.2.18.nupkg.sha512"
+  ],
+  "logs": []
+}
