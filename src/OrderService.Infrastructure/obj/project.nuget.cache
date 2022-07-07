@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Ef38S9kyvjfdCuHoBMFPBIwMkf6F9AdgewtbITplVIVyTx1qlVQQybd5lIGvawI8SfiXP9G/2QdhUk7LacRjIQ==",
+  "dgSpecHash": "aEFQhs7/4vo6qCqHBFb+2EtqivtAP4XTgeKPphiZ6qsgyRH3A9MLhFQJZ7x9OUlkdNaK3CpehcIJXTbL74eY9A==",
   "success": true,
   "projectFilePath": "/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Infrastructure/OrderService.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "/Users/tayyipadiguzel/.nuget/packages/fluentvalidation/11.0.2/fluentvalidation.11.0.2.nupkg.sha512",
+    "/Users/tayyipadiguzel/.nuget/packages/fluentvalidation.aspnetcore/11.0.2/fluentvalidation.aspnetcore.11.0.2.nupkg.sha512",
+    "/Users/tayyipadiguzel/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.0.2/fluentvalidation.dependencyinjectionextensions.11.0.2.nupkg.sha512",
+    "/Users/tayyipadiguzel/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.1.0/microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "/Users/tayyipadiguzel/.nuget/packages/restsharp/108.0.2-alpha.0.1/restsharp.108.0.2-alpha.0.1.nupkg.sha512",
     "/Users/tayyipadiguzel/.nuget/packages/system.linq.dynamic.core/1.2.18/system.linq.dynamic.core.1.2.18.nupkg.sha512"
   ],
   "logs": []

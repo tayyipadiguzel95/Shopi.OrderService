@@ -13,9 +13,15 @@
         "packagesPath": "/Users/tayyipadiguzel/.nuget/packages/",
         "outputPath": "/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Domain/obj/",
         "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tayyipadiguzel/.nuget/NuGet/NuGet.Config"
+        ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",

@@ -6,6 +6,7 @@ using OrderService.Application.Business.Orders.Requests;
 using OrderService.Application.Business.Orders.Responses;
 using OrderService.Domain.Data.EntityFramework;
 using OrderService.Domain.Data.EntityFramework.Entities.Orders;
+using OrderService.Infrastructure.Enums;
 using OrderService.Infrastructure.Extensions;
 using OrderService.Infrastructure.Public;
 using OrderService.Infrastructure.Public.Result;

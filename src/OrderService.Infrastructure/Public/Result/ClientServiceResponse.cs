@@ -16,6 +16,7 @@ namespace OrderService.Infrastructure.Public.Result
         public ClientResultCode TypeCode { get; set; }
         public string Title { get; set; }
         public List<string> Messages { get; set; }
+        public string Message => Messages.FirstOrDefault();
     }
     
     /// <summary>
@@ -25,6 +26,8 @@ namespace OrderService.Infrastructure.Public.Result
     {
         Error = 500,
         Validation = 400,
+        Authorization = 401,
+        Forbidden = 403,
         Warning = 420,
         NoContent = 204,
     }

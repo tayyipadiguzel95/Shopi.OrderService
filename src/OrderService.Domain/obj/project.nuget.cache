@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RNrRUAnHvCANwpXU9AHpxYs1R6BOSPtqcY8ttLD2HL0RXhUvNMyLSzCFWdDwlNfdhxqdkOJkbqLmXFCMqKXdWA==",
+  "dgSpecHash": "AYP/VTKLqEaxO9BNEbI26f7HqPslQ3MtvFxoO+mPGrshpWwQ819E4tcpFEvJkl1J5nNBKbjBR0kUHwXOQZmjqQ==",
   "success": true,
   "projectFilePath": "/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.Domain/OrderService.Domain.csproj",
   "expectedPackageFiles": [

@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using OrderService.Application.Common.Attribute;
 using OrderService.Infrastructure.Enums;
 using OrderService.Infrastructure.Public.Result;
 
@@ -11,6 +12,19 @@ namespace OrderService.API.Controllers.Base;
 [Route("api/[controller]/[action]")]
 public abstract class BaseController : Controller
 {
+    
+    /// <summary>
+    /// AuthBaseController
+    /// </summary>
+    [CustomAuthorize(AuthorizeMode.Authorize)]
+    public abstract class AuthBaseController : BaseController
+    {
+    }
+    
+    
+    
+    
+    
     /// <summary>
     /// Ok
     /// </summary>
@@ -18,7 +32,19 @@ public abstract class BaseController : Controller
     /// <param name="response"></param>
     /// <returns></returns>
     [NonAction]
-    protected virtual IActionResult Ok<T>(ServiceResponse<T> response)
+    protected IActionResult Ok<T>(ServiceResponse<T> response)
+    {
+        switch (response.ResultCode)
+        {
+            case ResultCode.Success:
+                return base.Ok(response.Result);
+        }
+
+        return HandleClientStatusCode(response);
+    }
+
+    [NonAction]
+    protected IActionResult Ok<T>(ServiceResponsePagination<T> response)
     {
         switch (response.ResultCode)
         {
@@ -40,7 +66,8 @@ public abstract class BaseController : Controller
         return response.ResultCode switch
         {
             ResultCode.Success => base.Ok(response.Success),
-            ResultCode.NoContent => StatusCode(StatusCodes.Status204NoContent,new ClientServiceResponse(ClientResultCode.Warning, response.Title, response.ResultMessage)),
+            ResultCode.NoContent => StatusCode(StatusCodes.Status204NoContent,
+                new ClientServiceResponse(ClientResultCode.Warning, response.Title, response.ResultMessage)),
             _ => StatusCode(StatusCodes.Status400BadRequest,
                 new ClientServiceResponse(ClientResultCode.Warning, response.Title, response.ResultMessage))
         };

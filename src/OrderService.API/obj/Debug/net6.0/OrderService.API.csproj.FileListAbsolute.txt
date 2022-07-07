@@ -40,3 +40,14 @@
 /Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.API/obj/Debug/net6.0/OrderService.API.genruntimeconfig.cache
 /Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.API/obj/Debug/net6.0/ref/OrderService.API.dll
 /Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.API/bin/Debug/net6.0/System.Linq.Dynamic.Core.dll
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.API/bin/Debug/net6.0/appsettings.Production.json
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.API/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.API/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.API/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.API/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.API/bin/Debug/net6.0/RestSharp.dll
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.API/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.API/bin/Debug/net6.0/Shopi.OrderService.Integrations.dll
+/Users/tayyipadiguzel/Projects/Shopi.OrderService/src/OrderService.API/bin/Debug/net6.0/Shopi.OrderService.Integrations.pdb
