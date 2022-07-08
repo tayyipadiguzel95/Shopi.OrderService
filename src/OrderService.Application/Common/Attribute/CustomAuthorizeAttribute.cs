@@ -29,7 +29,7 @@ public class CustomAuthorizeAttribute : ActionFilterAttribute
         var controllerName = rd.Values["controller"]?.ToString();
         var actionName = rd.Values["action"]?.ToString();
 
-        var result = serviceScope.ServiceProvider.GetRequiredService<IAuthServiceClient>()
+        var result = serviceScope.ServiceProvider.GetService<IAuthServiceClient>()!
             .CheckAuth(controllerName, actionName, AuthorizeMode).Result;
 
         switch (result.Result)

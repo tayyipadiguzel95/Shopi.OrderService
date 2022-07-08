@@ -12,19 +12,6 @@ namespace OrderService.API.Controllers.Base;
 [Route("api/[controller]/[action]")]
 public abstract class BaseController : Controller
 {
-    
-    /// <summary>
-    /// AuthBaseController
-    /// </summary>
-    [CustomAuthorize(AuthorizeMode.Authorize)]
-    public abstract class AuthBaseController : BaseController
-    {
-    }
-    
-    
-    
-    
-    
     /// <summary>
     /// Ok
     /// </summary>
@@ -72,4 +59,13 @@ public abstract class BaseController : Controller
                 new ClientServiceResponse(ClientResultCode.Warning, response.Title, response.ResultMessage))
         };
     }
+}
+
+    
+/// <summary>
+/// AuthBaseController
+/// </summary>
+[CustomAuthorize(AuthorizeMode.Authorize)]
+public abstract class AuthBaseController : BaseController
+{
 }

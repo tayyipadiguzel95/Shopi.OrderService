@@ -8,7 +8,7 @@ namespace OrderService.API.Controllers;
 /// <summary>
 /// OrderController
 /// </summary>
-public class OrderController : BaseController
+public class OrderController : AuthBaseController
 {
     private readonly IOrderService _orderService;
 

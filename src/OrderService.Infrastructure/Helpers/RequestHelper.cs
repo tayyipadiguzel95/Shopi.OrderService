@@ -35,13 +35,13 @@ public static class RequestHelper
 
         if (headers != null)
         {
-            foreach (var header in headers)
-                request.AddHeader(header.Key, header.Value);
+            foreach (var (key, value) in headers)
+                request.AddHeader(key, value);
         }
 
         if (paramList != null)
-            foreach (var param in paramList)
-                request.AddQueryParameter(param.Key, param.Value);
+            foreach (var (key, value) in paramList)
+                request.AddQueryParameter(key, value);
 
         if (jsonBody != null)
             request.AddJsonBody(jsonBody);

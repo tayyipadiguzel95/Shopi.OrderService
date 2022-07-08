@@ -1,8 +1,11 @@
 using System.Text;
 using FluentValidation.AspNetCore;
+using MicroElements.Swashbuckle.FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using OrderService.Application.Business.Orders.Validations;
+using OrderService.Application.Common.Extensions;
 using OrderService.Infrastructure.Public;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,27 +19,40 @@ builder.Services.AddControllers()
         s.RegisterValidatorsFromAssemblyContaining<OrderValidator>();
     });
 
+
+builder.Services.Register(builder.Configuration);
+
+
+#region Swagger
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Version = "v1",
+        Title = "Basic Microservice",
+        Description = "Tayyip A",
+        TermsOfService = new Uri("http://localhost:5001"),
+        Contact = new OpenApiContact { Name = "", Email = "", Url = new Uri("http://localhost:5001/") }
+    });
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme { In = ParameterLocation.Header, Description = "Please enter JWT with Bearer into field", Name = "Authorization", Type = SecuritySchemeType.ApiKey });
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "Bearer" }
+            },
+            new[] { "Bearer", "writeAccess" }
+        }
+    });
+});
+
+builder.Services.AddFluentValidationRulesToSwagger();
+
+#endregion
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-builder.Services
-    .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(o =>
-    {
-        var key = Encoding.UTF8.GetBytes(configuration["JWT:Key"]);
-        o.SaveToken = true;
-        o.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateIssuer = false,
-            ValidateAudience = false,
-            ValidateLifetime = true,
-            ValidateIssuerSigningKey = true,
-            ValidIssuer = configuration["JWT:Issuer"],
-            ValidAudience = configuration["JWT:Audience"],
-            IssuerSigningKey = new SymmetricSecurityKey(key)
-        };
-    });
 
 var app = builder.Build();
 
